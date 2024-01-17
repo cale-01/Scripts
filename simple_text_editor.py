@@ -16,7 +16,6 @@ class TextEditor:
         menu.add_command(label="New", command=self.new_file)
         menu.add_command(label="Open", command=self.open_file)
         menu.add_command(label="Save", command=self.save_file)
-        menu.add_separator()
         menu.add_command(label="Exit", command=self.window.quit)
 
     def new_file(self):
